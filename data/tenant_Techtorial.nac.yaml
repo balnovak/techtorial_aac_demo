@@ -27,7 +27,7 @@ apic:
           subnets:
             - ip: 10.1.4.1/23
         - name: VLAN2000
-          vrf: VRF2000
+          vrf: VRF1
 
       application_profiles:
         - name: DEV
