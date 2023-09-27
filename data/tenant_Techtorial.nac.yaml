@@ -26,6 +26,8 @@ apic:
           vrf: VRF1
           subnets:
             - ip: 10.1.4.1/23
+        - name: VLAN2000
+          vrf: VRF2000
 
       application_profiles:
         - name: DEV
@@ -38,3 +40,5 @@ apic:
               bridge_domain: VLAN103
             - name: VLAN104
               bridge_domain: VLAN104
+            - name: VLAN2000
+              bridge_domain: VLAN2000
