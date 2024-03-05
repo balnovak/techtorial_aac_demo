@@ -29,7 +29,7 @@ apic:
         - name: VLAN2000
           vrf: VRF1
         - name: VLAN2001
-          vrf: VRF3
+          vrf: VRF1
 
       application_profiles:
         - name: DEV
