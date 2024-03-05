@@ -28,6 +28,8 @@ apic:
             - ip: 10.1.4.1/23
         - name: VLAN2000
           vrf: VRF1
+        - name: VLAN2001
+          vrf: VRF3
 
       application_profiles:
         - name: DEV
@@ -42,3 +44,5 @@ apic:
               bridge_domain: VLAN104
             - name: VLAN2000
               bridge_domain: VLAN2000
+            - name: VLAN2001
+              bridge_domain: VLAN2001
